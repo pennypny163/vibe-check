@@ -21,7 +21,7 @@ export function startServer(port: number = 3742): { close: () => void } {
   const wss = setupWebSocket(server);
 
   // SPA fallback
-  app.get('*', (_req, res) => {
+  app.get('/{*splat}', (_req, res) => {
     res.sendFile(path.join(dashboardPath, 'index.html'));
   });
 

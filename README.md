@@ -2,6 +2,10 @@
 
 > Your code habits raise a pixel pet. Good engineering = happy dragon. Vibe coding = sick octopus.
 
+<p align="center">
+  <img src="docs/dashboard-screenshot.png" alt="vibe-check pixel pet dashboard" width="720" />
+</p>
+
 **vibe-check** is a CLI tool that analyzes your Git history, scores the engineering quality of your AI-assisted coding, and visualizes results as a **pixel pet养成游戏** — a tamagotchi-style companion whose health, mood, and evolution are driven by your real coding habits.
 
 ## 🎮 Features
